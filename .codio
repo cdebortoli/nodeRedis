@@ -6,6 +6,7 @@
       "Node version": "node --version",
       "Exec serverRedis": "nodemon serverRedis.js",
       "Exec serverMongo": "nodemon serverMongo.js",
+      "Exec serverMongoose": "nodemon serverMongoose.js",
       "Start Mongo Database": "parts start mongodb",
       "Stop Mongo Database": "parts stop mongodb",
       "Start Redis Database": "parts start redis",
