@@ -5,6 +5,9 @@
   "commands": {
       "Node version": "node --version",
       "Exec serverRedis": "nodemon serverRedis.js",
+      "Exec serverMongo": "nodemon serverMongo.js",
+      "Start Mongo Database": "parts start mongodb",
+      "Stop Mongo Database": "parts stop mongodb",
       "Start Redis Database": "parts start redis",
       "Stop Redis Database": "parts stop redis"
   },
