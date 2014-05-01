@@ -3,7 +3,10 @@
 
 // Run button configuration
   "commands": {
-        "Node version": "node --version"
+      "Node version": "node --version",
+      "Exec serverRedis": "nodemon serverRedis.js",
+      "Start Redis Database": "parts start redis",
+      "Stop Redis Database": "parts stop redis"
   },
 
 // Preview button configuration
